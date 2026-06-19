@@ -1,0 +1,43 @@
+{
+  "name": "@tttech/feedback-widget",
+  "version": "0.1.0",
+  "description": "Embeddable feedback widget for TT Tech client apps. Voice + screenshot + page context, posts to the TT Tech portal ingest endpoint.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "react": "^19",
+    "react-dom": "^19",
+    "tsup": "^8",
+    "typescript": "^5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TomTeurlings1106/tttech-feedback-widget.git"
+  },
+  "keywords": ["feedback", "widget", "tttech", "react"],
+  "engines": {
+    "node": ">=18"
+  }
+}
