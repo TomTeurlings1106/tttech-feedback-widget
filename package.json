@@ -1,6 +1,6 @@
 {
   "name": "@tttech/feedback-widget",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Embeddable feedback widget for TT Tech client apps. Voice + screenshot + page context, posts to the TT Tech portal ingest endpoint.",
   "license": "MIT",
   "type": "module",
@@ -14,7 +14,10 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
@@ -37,7 +40,12 @@
     "type": "git",
     "url": "https://github.com/TomTeurlings1106/tttech-feedback-widget.git"
   },
-  "keywords": ["feedback", "widget", "tttech", "react"],
+  "keywords": [
+    "feedback",
+    "widget",
+    "tttech",
+    "react"
+  ],
   "engines": {
     "node": ">=18"
   }

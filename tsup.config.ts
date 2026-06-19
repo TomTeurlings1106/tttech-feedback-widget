@@ -8,4 +8,5 @@ export default defineConfig({
   clean: true,
   external: ["react", "react-dom"],
   treeshake: true,
+  banner: { js: '"use client";' },
 });
