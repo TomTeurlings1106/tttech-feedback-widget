@@ -1,6 +1,6 @@
 {
   "name": "@tttech/feedback-widget",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Embeddable feedback widget for TT Tech client apps. Voice + screenshot + page context, posts to the TT Tech portal ingest endpoint.",
   "license": "MIT",
   "type": "module",
