@@ -21,8 +21,7 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "typecheck": "tsc --noEmit",
-    "prepare": "tsup"
+    "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
     "react": ">=18",
